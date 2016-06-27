@@ -1,0 +1,33 @@
+<html>
+<head>
+	<title>Bouncing balls</title>
+<script type="text/javascript" src="script.js"></script>		
+</head>
+<body onload="init();">
+<style type="text/css">
+	canvas {
+		border: 1px solid black; cursor: crosshair;
+		background: #efefef;
+	}
+	span {
+		display: none;
+	}
+	#fpsDiv {
+		position: absolute;
+		top: 20px;
+		left: 20px;
+	}
+	#fps {
+		display: inline-block;
+	}
+</style>
+
+
+<canvas id="mycanvas"></canvas>
+<span id="gravityX">caption</span>
+<span id="gravityY">caption</span>
+<div id="fpsDiv"><span id="fps"></span> FPS</div>
+
+
+</body>
+</html>
